@@ -56,7 +56,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .footer_title{
     margin-top: 10px;
@@ -64,9 +64,16 @@ hr{
 }
 .link_ul{
     list-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+}
+.link_ul>li{
+    margin-bottom: 10px;
 }
 .footer_link,.footer_link:visited,.footer_link:link{
     text-decoration:none;
     color: inherit;
-    margin-bottom: 10px;
 }
