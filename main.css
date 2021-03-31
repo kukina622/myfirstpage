@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "微軟正黑體";
+    flex-wrap:wrap;    
+    padding: 0;
+    margin: 0;
+}
+.outer{
+    width: 50vw;
+}
+.face_img{
+    border-radius: 50%;
+    width:25%;
+}
+.subtitle{
+    color: aqua;
+    margin-left: 10px;
+}
+h2{
+    display: inline-block;
+}
+hr{
+    background-color: black;
+}
+.title_en{
+    color: cornflowerblue;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.profile_text{
+    line-height:30px;
+
+}
+.introduction_text{
+    line-height: 35px;
+    color: dodgerblue;
+}
+.year_ul{
+    list-style:none;
+    padding-left: 0;
+    font-weight: bold;
+}
+.event_ul{
+    font-weight: normal;
+    list-style: disc ;
+}
+.event_ul > li{
+    padding: 5px;
+    line-height:25px;
+}
+.footer{
+    width: 100vw;
+    background-color: rgb(118, 123, 189);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer_title{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.link_ul{
+    list-style:none;
+}
+.footer_link,.footer_link:visited,.footer_link:link{
+    text-decoration:none;
+    color: inherit;
+    margin-bottom: 10px;
+}
